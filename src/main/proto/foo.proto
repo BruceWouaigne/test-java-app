@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package bruce.proto.v1;
+
+option java_multiple_files = true;
+option java_package = "com.bruce.proto.v1";
+
+message Foo {
+    string bar = 1;
+    string baz = 2;
+}
